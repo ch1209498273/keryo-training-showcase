@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="血透中心医护培训平台">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070D1A"/>
+      <stop offset="55%" stop-color="#0C1A30"/>
+      <stop offset="100%" stop-color="#0A1526"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F87171" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F87171" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#FFFFFF" fill-opacity="0.05"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" fill="url(#bg)"/>
+  <rect width="1200" height="440" fill="url(#dots)"/>
+  <ellipse cx="1010" cy="150" rx="230" ry="200" fill="url(#glowA)"/>
+  <ellipse cx="980" cy="360" rx="190" ry="150" fill="url(#glowB)"/>
+
+  <!-- 右侧闭环图形 -->
+  <g opacity="0.95">
+    <circle cx="985" cy="215" r="126" fill="none" stroke="url(#ring)" stroke-width="1.4" stroke-opacity="0.55"/>
+    <circle cx="985" cy="215" r="94" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 7"/>
+    <circle cx="985" cy="215" r="58" fill="none" stroke="#A78BFA" stroke-width="1.2" stroke-opacity="0.45"/>
+    <circle cx="985" cy="215" r="30" fill="#0E1E36" stroke="#22D3EE" stroke-width="1.6"/>
+    <path d="M985 201 v28 M971 215 h28" stroke="#22D3EE" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+
+    <g>
+      <circle cx="985" cy="89" r="9" fill="#0C1A30" stroke="#38BDF8" stroke-width="2"/>
+      <circle cx="1111" cy="215" r="9" fill="#0C1A30" stroke="#22D3EE" stroke-width="2"/>
+      <circle cx="985" cy="341" r="9" fill="#0C1A30" stroke="#A78BFA" stroke-width="2"/>
+      <circle cx="859" cy="215" r="9" fill="#0C1A30" stroke="#F87171" stroke-width="2"/>
+    </g>
+    <text x="985" y="68" fill="#7DD3FC" font-size="14" font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">培训</text>
+    <text x="1128" y="220" fill="#7DD3FC" font-size="14" font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">考核</text>
+    <text x="985" y="366" fill="#C4B5FD" font-size="14" font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">结果</text>
+    <text x="838" y="221" fill="#FCA5A5" font-size="14" font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="end">改进</text>
+
+    <path d="M1058 148 A 100 100 0 0 1 1072 240" fill="none" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.7"/>
+    <path d="M1072 240 l 8 -10 l -12 1 z" fill="#38BDF8" fill-opacity="0.9"/>
+  </g>
+
+  <!-- 左侧文案 -->
+  <g font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+    <rect x="72" y="66" width="330" height="30" rx="15" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.35"/>
+    <text x="92" y="86" fill="#7DD3FC" font-size="13" letter-spacing="2.4">EVIDENCE-FIRST TRAINING PLATFORM</text>
+
+    <text x="70" y="176" fill="#F1F5F9" font-size="52" font-weight="700" letter-spacing="1">血透中心医护培训平台</text>
+    <text x="72" y="228" fill="#94A3B8" font-size="21" letter-spacing="0.6">培训 · 考核 · 结果 · 改进，一条不中断的证据链</text>
+
+    <line x1="72" y1="262" x2="252" y2="262" stroke="url(#line)" stroke-width="2"/>
+
+    <text x="72" y="300" fill="#CBD5E1" font-size="16">它解决的不是"没有课上"，</text>
+    <text x="72" y="330" fill="#E2E8F0" font-size="16" font-weight="600">而是"查的时候说不清"。</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="四条设计原则">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090F1C"/>
+      <stop offset="100%" stop-color="#0B1524"/>
+    </linearGradient>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2B44" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0B1B2C" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12283A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0C1D2C" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E1B3A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#12121F" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E2A2A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0A1C1E" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="440" fill="url(#hbg)"/>
+  <g font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+
+    <!-- 卡 1 -->
+    <rect x="48" y="40" width="536" height="176" rx="16" fill="url(#c1)" stroke="#38BDF8" stroke-opacity="0.32"/>
+    <rect x="72" y="64" width="4" height="26" rx="2" fill="#38BDF8"/>
+    <text x="90" y="85" fill="#7DD3FC" font-size="15" letter-spacing="1.4">可核查优先于可宣称</text>
+    <text x="72" y="128" fill="#F1F5F9" font-size="21" font-weight="600">审计日志在数据库层禁止删除</text>
+    <text x="72" y="158" fill="#94A3B8" font-size="14">「归档」只能是复制到归档表 + 打标记；</text>
+    <text x="72" y="182" fill="#94A3B8" font-size="14">绕过应用层的删除会被数据库直接拒绝。</text>
+
+    <!-- 卡 2 -->
+    <rect x="616" y="40" width="536" height="176" rx="16" fill="url(#c2)" stroke="#22D3EE" stroke-opacity="0.32"/>
+    <rect x="640" y="64" width="4" height="26" rx="2" fill="#22D3EE"/>
+    <text x="658" y="85" fill="#67E8F9" font-size="15" letter-spacing="1.4">AI 给判断，人担责任</text>
+    <text x="640" y="128" fill="#F1F5F9" font-size="21" font-weight="600">建议分与复核分在库里是两列</text>
+    <text x="640" y="158" fill="#94A3B8" font-size="14">谁覆盖了谁一目了然；</text>
+    <text x="640" y="182" fill="#94A3B8" font-size="14">AI 不可用时降级为规则清单，不假装正常。</text>
+
+    <!-- 卡 3 -->
+    <rect x="48" y="240" width="536" height="176" rx="16" fill="url(#c3)" stroke="#A78BFA" stroke-opacity="0.32"/>
+    <rect x="72" y="264" width="4" height="26" rx="2" fill="#A78BFA"/>
+    <text x="90" y="285" fill="#C4B5FD" font-size="15" letter-spacing="1.4">边界写进约束</text>
+    <text x="72" y="328" fill="#F1F5F9" font-size="21" font-weight="600">唯一键 · 接口断言 · 条件更新</text>
+    <text x="72" y="358" fill="#94A3B8" font-size="14">「一题一申、一次终审」三层收口；</text>
+    <text x="72" y="382" fill="#94A3B8" font-size="14">未配置部门直接报错，不回落成"看全部"。</text>
+
+    <!-- 卡 4 -->
+    <rect x="616" y="240" width="536" height="176" rx="16" fill="url(#c4)" stroke="#34D399" stroke-opacity="0.32"/>
+    <rect x="640" y="264" width="4" height="26" rx="2" fill="#34D399"/>
+    <text x="658" y="285" fill="#6EE7B7" font-size="15" letter-spacing="1.4">结论可追到人</text>
+    <text x="640" y="328" fill="#F1F5F9" font-size="21" font-weight="600">每个结论都带操作人与动作码</text>
+    <text x="640" y="358" fill="#94A3B8" font-size="14">改分前后对照、申诉终审、送达已读；</text>
+    <text x="640" y="382" fill="#94A3B8" font-size="14">一条完整主线可被第三方按时间重放。</text>
+
+  </g>
+</svg>

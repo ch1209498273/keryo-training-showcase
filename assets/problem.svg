@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="证据链断裂示意">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1220"/>
+      <stop offset="100%" stop-color="#0B1524"/>
+    </linearGradient>
+    <linearGradient id="okn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12283F"/>
+      <stop offset="100%" stop-color="#0E1E32"/>
+    </linearGradient>
+    <linearGradient id="badn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#351A22"/>
+      <stop offset="100%" stop-color="#28141B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#pbg)"/>
+  <g font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+    <text x="64" y="66" fill="#64748B" font-size="13" letter-spacing="2.6">THE PROBLEM</text>
+    <text x="64" y="108" fill="#E2E8F0" font-size="30" font-weight="700">检查方要的不是完成率，是可回溯的证据链</text>
+
+    <!-- 连接线 -->
+    <line x1="150" y1="216" x2="470" y2="216" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.55"/>
+    <line x1="530" y1="216" x2="700" y2="216" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.55"/>
+    <line x1="760" y1="216" x2="930" y2="216" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.55"/>
+    <!-- 断裂 -->
+    <line x1="985" y1="216" x2="1015" y2="216" stroke="#F87171" stroke-width="2" stroke-dasharray="6 8" stroke-opacity="0.8"/>
+    <line x1="992" y1="200" x2="1008" y2="232" stroke="#F87171" stroke-width="3" stroke-linecap="round"/>
+    <line x1="1004" y1="200" x2="1020" y2="232" stroke="#F87171" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 节点 1 -->
+    <rect x="64" y="180" width="172" height="72" rx="12" fill="url(#okn)" stroke="#38BDF8" stroke-opacity="0.4"/>
+    <text x="150" y="210" fill="#E2E8F0" font-size="17" text-anchor="middle" font-weight="600">培训做了吗</text>
+    <text x="150" y="234" fill="#64748B" font-size="13" text-anchor="middle">签到 · 学时</text>
+
+    <!-- 节点 2 -->
+    <rect x="470" y="180" width="172" height="72" rx="12" fill="url(#okn)" stroke="#38BDF8" stroke-opacity="0.4"/>
+    <text x="556" y="210" fill="#E2E8F0" font-size="17" text-anchor="middle" font-weight="600">学的哪一版</text>
+    <text x="556" y="234" fill="#64748B" font-size="13" text-anchor="middle">课件 · 知识点</text>
+
+    <!-- 节点 3 -->
+    <rect x="700" y="180" width="172" height="72" rx="12" fill="url(#okn)" stroke="#38BDF8" stroke-opacity="0.4"/>
+    <text x="786" y="210" fill="#E2E8F0" font-size="17" text-anchor="middle" font-weight="600">考了多少分</text>
+    <text x="786" y="234" fill="#64748B" font-size="13" text-anchor="middle">作答 · 判分</text>
+
+    <!-- 节点 4 -->
+    <rect x="930" y="180" width="150" height="72" rx="12" fill="url(#badn)" stroke="#F87171" stroke-opacity="0.75"/>
+    <text x="1005" y="210" fill="#FCA5A5" font-size="17" text-anchor="middle" font-weight="600">谁改的</text>
+    <text x="1005" y="234" fill="#B4565F" font-size="13" text-anchor="middle">依据是什么</text>
+
+    <!-- 说明 -->
+    <text x="64" y="300" fill="#7DD3FC" font-size="14">↑ 多数系统能答到这里</text>
+    <text x="930" y="300" fill="#F87171" font-size="14">↑ 常见失守点</text>
+
+    <line x1="64" y1="330" x2="1136" y2="330" stroke="#1E293B" stroke-width="1"/>
+    <text x="64" y="362" fill="#94A3B8" font-size="15">完成率不是结论，是一句自我陈述。日志可删、改分不留痕、AI 分数直接落库——证据链一断，前面全废。</text>
+  </g>
+</svg>

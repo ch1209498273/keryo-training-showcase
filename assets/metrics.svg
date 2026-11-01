@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="工程与质量数据">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0A1220"/>
+      <stop offset="100%" stop-color="#0C1728"/>
+    </linearGradient>
+    <linearGradient id="numA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="numB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DDD6FE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="numC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6EE7B7"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#mbg)"/>
+  <g font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" text-anchor="middle">
+    <g>
+      <text x="200" y="96" fill="url(#numA)" font-size="58" font-weight="700">610</text>
+      <text x="200" y="136" fill="#CBD5E1" font-size="17">后端单测全绿</text>
+      <text x="200" y="164" fill="#5B6B80" font-size="14">63 个测试类</text>
+    </g>
+    <g>
+      <text x="600" y="96" fill="url(#numA)" font-size="58" font-weight="700">69/69</text>
+      <text x="600" y="136" fill="#CBD5E1" font-size="17">叶子页面全量走查</text>
+      <text x="600" y="164" fill="#5B6B80" font-size="14">6 类角色覆盖</text>
+    </g>
+    <g>
+      <text x="1000" y="96" fill="url(#numC)" font-size="58" font-weight="700">0</text>
+      <text x="1000" y="136" fill="#CBD5E1" font-size="17">单轮断言失败</text>
+      <text x="1000" y="164" fill="#5B6B80" font-size="14">单轮最多 96 条 · 共 7 轮</text>
+    </g>
+
+    <line x1="56" y1="192" x2="1144" y2="192" stroke="#1B2A40" stroke-width="1"/>
+
+    <g>
+      <text x="200" y="252" fill="url(#numB)" font-size="58" font-weight="700">80+</text>
+      <text x="200" y="292" fill="#CBD5E1" font-size="17">权限矩阵菜单项</text>
+      <text x="200" y="320" fill="#5B6B80" font-size="14">4 类运行时身份</text>
+    </g>
+    <g>
+      <text x="600" y="252" fill="url(#numB)" font-size="58" font-weight="700">2414</text>
+      <text x="600" y="292" fill="#CBD5E1" font-size="17">审计归档零删除</text>
+      <text x="600" y="320" fill="#5B6B80" font-size="14">禁用约束下一条未丢</text>
+    </g>
+    <g>
+      <text x="1000" y="252" fill="url(#numC)" font-size="58" font-weight="700">50</text>
+      <text x="1000" y="292" fill="#CBD5E1" font-size="17">版本化迁移</text>
+      <text x="1000" y="320" fill="#5B6B80" font-size="14">逐版可重放</text>
+    </g>
+  </g>
+</svg>

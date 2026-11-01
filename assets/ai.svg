@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 456" width="1200" height="456" role="img" aria-label="AI 能力与人工确认纪律">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0D1424"/>
+    </linearGradient>
+    <linearGradient id="chain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="chipg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101F35"/>
+      <stop offset="100%" stop-color="#0C182A"/>
+    </linearGradient>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38BDF8" fill-opacity="0.75"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="456" fill="url(#abg)"/>
+  <g font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+    <text x="56" y="52" fill="#64748B" font-size="13" letter-spacing="2.6">AI WITH A HUMAN IN THE LOOP</text>
+    <text x="56" y="92" fill="#E2E8F0" font-size="28" font-weight="700">九类 AI 能力，共享同一条纪律</text>
+
+    <!-- 纪律链 -->
+    <rect x="56" y="124" width="1088" height="86" rx="14" fill="url(#chain)" stroke="#38BDF8" stroke-opacity="0.20"/>
+    <g font-size="14.5">
+      <rect x="78" y="146" width="150" height="42" rx="21" fill="#0E2036" stroke="#38BDF8" stroke-opacity="0.55"/>
+      <text x="153" y="172" fill="#E2E8F0" text-anchor="middle">AI 生成</text>
+
+      <rect x="258" y="146" width="196" height="42" rx="21" fill="#0E2036" stroke="#38BDF8" stroke-opacity="0.55"/>
+      <text x="356" y="172" fill="#E2E8F0" text-anchor="middle">结构化落库 + 标记来源</text>
+
+      <rect x="484" y="146" width="180" height="42" rx="21" fill="#12253D" stroke="#22D3EE" stroke-opacity="0.7"/>
+      <text x="574" y="172" fill="#A5F3FC" text-anchor="middle">人工确认 / 修改</text>
+
+      <rect x="694" y="146" width="130" height="42" rx="21" fill="#0E2036" stroke="#38BDF8" stroke-opacity="0.55"/>
+      <text x="759" y="172" fill="#E2E8F0" text-anchor="middle">留痕</text>
+
+      <rect x="854" y="146" width="142" height="42" rx="21" fill="#1A1430" stroke="#A78BFA" stroke-opacity="0.75"/>
+      <text x="925" y="172" fill="#DDD6FE" text-anchor="middle">对外生效</text>
+
+      <line x1="232" y1="167" x2="252" y2="167" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.75" marker-end="url(#ar2)"/>
+      <line x1="458" y1="167" x2="478" y2="167" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.75" marker-end="url(#ar2)"/>
+      <line x1="668" y1="167" x2="688" y2="167" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.75" marker-end="url(#ar2)"/>
+      <line x1="828" y1="167" x2="848" y2="167" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.75" marker-end="url(#ar2)"/>
+    </g>
+    <text x="1020" y="172" fill="#94A3B8" font-size="13">缺一步即不出结果</text>
+
+    <!-- 九能力 -->
+    <g font-size="14">
+      <rect x="56" y="238" width="342" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="76" y="272" fill="#CBD5E1">命题出卷</text>
+      <text x="200" y="272" fill="#64748B" font-size="12.5">按知识点与难度配比组卷</text>
+
+      <rect x="414" y="238" width="342" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="434" y="272" fill="#CBD5E1">主观题判分建议</text>
+      <text x="566" y="272" fill="#64748B" font-size="12.5">给分 + 依据，人工定稿</text>
+
+      <rect x="772" y="238" width="370" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="792" y="272" fill="#CBD5E1">知识点结构化提取</text>
+      <text x="930" y="272" fill="#64748B" font-size="12.5">逐条校验后才入库</text>
+
+      <rect x="56" y="308" width="342" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="76" y="342" fill="#CBD5E1">带出处的答疑</text>
+      <text x="200" y="342" fill="#64748B" font-size="12.5">检索不到就说"没找到"</text>
+
+      <rect x="414" y="308" width="342" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="434" y="342" fill="#CBD5E1">讲义与宣教生成</text>
+      <text x="566" y="342" fill="#64748B" font-size="12.5">草稿态，需人发布</text>
+
+      <rect x="772" y="308" width="370" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="792" y="342" fill="#CBD5E1">个性化学习建议</text>
+      <text x="930" y="342" fill="#64748B" font-size="12.5">抽检事实准确率</text>
+
+      <rect x="56" y="378" width="342" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="76" y="412" fill="#CBD5E1">督导报告</text>
+      <text x="200" y="412" fill="#64748B" font-size="12.5">版本化，可追溯口径</text>
+
+      <rect x="414" y="378" width="342" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="434" y="412" fill="#CBD5E1">应急流程生成</text>
+      <text x="566" y="412" fill="#64748B" font-size="12.5">流程图 + 人工复核</text>
+
+      <rect x="772" y="378" width="370" height="54" rx="10" fill="url(#chipg)" stroke="#1E3A54"/>
+      <text x="792" y="412" fill="#CBD5E1">流程委托与提醒</text>
+      <text x="930" y="412" fill="#64748B" font-size="12.5">按批次聚合，不刷屏</text>
+    </g>
+
+  </g>
+</svg>

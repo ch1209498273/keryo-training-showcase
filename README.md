@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/banner.svg" alt="血透中心医护培训平台" width="100%">
+  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/banner.svg" alt="血透中心医护培训平台" width="100%">
   <br><br>
-  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/badges.svg" alt="项目状态" width="100%">
+  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/badges.svg" alt="项目状态" width="100%">
 </div>
 
 <br>
@@ -28,7 +28,7 @@
 
 ## 01 · 问题：证据链断在最后一环
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/problem.svg" alt="证据链断裂示意" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/problem.svg" alt="证据链断裂示意" width="100%">
 
 血透是强合规场景。等级评审、医保飞检、院感检查反复问的是同一组问题：这次培训做了吗、谁参加了、学的什么版本的材料、考了多少分、谁判的、**这个分数后来被谁改过、依据是什么**。
 
@@ -40,7 +40,7 @@
 
 ## 02 · 产品决策：四次主动放弃
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/decisions.svg" alt="产品取舍对照" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/decisions.svg" alt="产品取舍对照" width="100%">
 
 产品能力不在功能列表里，在放弃清单里。下面四条是真正影响形态的决定，每条都写清了当时放弃什么、依据是什么。
 
@@ -80,7 +80,7 @@
 
 ## 03 · 四条设计原则
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/principles.svg" alt="四条设计原则" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/principles.svg" alt="四条设计原则" width="100%">
 
 这四条不写在文档里供人参观，而是固化成系统的硬约束：
 
@@ -93,7 +93,7 @@
 
 ## 04 · 一条不中断的闭环
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/loop.svg" alt="业务闭环与证据留痕" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/loop.svg" alt="业务闭环与证据留痕" width="100%">
 
 平台按四段组织，每段都有对应的证据留痕：
 
@@ -111,7 +111,7 @@
 
 ## 05 · AI 的位置：给判断，但不担责任
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/ai.svg" alt="AI 能力与人工确认纪律" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/ai.svg" alt="AI 能力与人工确认纪律" width="100%">
 
 平台有九类 AI 能力，但它们共享同一条纪律：**AI 生成 → 结构化落库（标记来源）→ 人工确认/修改 → 留痕 → 才对外生效。**
 
@@ -126,7 +126,7 @@
 
 ## 06 · 架构：前端隐藏只是体验，边界在接口与 SQL 层
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/architecture.svg" alt="系统架构与权限三道收敛" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/architecture.svg" alt="系统架构与权限三道收敛" width="100%">
 
 **权限三道收敛：** 路由可达性（菜单授权）→ 接口门禁（角色/权限断言）→ SQL 数据范围（查询层自动注入部门条件）。前端的隐藏只是体验，不是边界。中心级管理者的部门范围在"计划 / 场次 / 台账"三处口径一致。
 
@@ -144,7 +144,7 @@
 
 ## 07 · 工程硬功夫
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/deadlock.svg" alt="门禁死锁与规则纯函数化" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/deadlock.svg" alt="门禁死锁与规则纯函数化" width="100%">
 
 产品规则一旦写进代码，就会变成工程约束。这几处是设计时必须提前想清楚的。
 
@@ -160,7 +160,7 @@
 
 ## 08 · 质量、验证与验收口径
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@main/assets/metrics.svg" alt="工程与质量数据" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/metrics.svg" alt="工程与质量数据" width="100%">
 
 **工程侧：**
 

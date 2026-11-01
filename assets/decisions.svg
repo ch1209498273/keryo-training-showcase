@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="产品取舍对照">
+  <defs>
+    <linearGradient id="dbg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090F1C"/>
+      <stop offset="100%" stop-color="#0B1524"/>
+    </linearGradient>
+    <linearGradient id="leftcard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A2130"/>
+      <stop offset="100%" stop-color="#141A26"/>
+    </linearGradient>
+    <linearGradient id="rightcard" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10283F"/>
+      <stop offset="100%" stop-color="#0C1E31"/>
+    </linearGradient>
+    <marker id="darr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38BDF8" fill-opacity="0.8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#dbg2)"/>
+  <g font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+    <text x="56" y="50" fill="#64748B" font-size="13" letter-spacing="2.6">PRODUCT DECISIONS</text>
+    <text x="56" y="90" fill="#E2E8F0" font-size="28" font-weight="700">四次主动放弃，决定了它长什么样</text>
+
+    <text x="56" y="128" fill="#5B6B80" font-size="13" letter-spacing="1.2">行业默认答案</text>
+    <text x="640" y="128" fill="#7DD3FC" font-size="13" letter-spacing="1.2">这个产品的答案</text>
+
+    <!-- 行 1 -->
+    <g>
+      <rect x="56" y="142" width="440" height="54" rx="10" fill="url(#leftcard)" stroke="#2A3547"/>
+      <text x="76" y="167" fill="#8A97A8" font-size="14">培训系统比的是完成率</text>
+      <text x="76" y="186" fill="#5B6B80" font-size="12.5">百分比好看，但不可核查</text>
+
+      <line x1="510" y1="169" x2="622" y2="169" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.55" marker-end="url(#darr)"/>
+
+      <rect x="640" y="142" width="504" height="54" rx="10" fill="url(#rightcard)" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="662" y="167" fill="#E2E8F0" font-size="14">每个结论都能回溯到证据</text>
+      <text x="662" y="186" fill="#7F93A8" font-size="12.5">宁可界面更难用，也不给一句无法验证的结论</text>
+    </g>
+
+    <!-- 行 2 -->
+    <g>
+      <rect x="56" y="206" width="440" height="54" rx="10" fill="url(#leftcard)" stroke="#2A3547"/>
+      <text x="76" y="231" fill="#8A97A8" font-size="14">做通用 LMS，功能尽量全</text>
+      <text x="76" y="250" fill="#5B6B80" font-size="12.5">谁都能用，也就谁都不够用</text>
+
+      <line x1="510" y1="233" x2="622" y2="233" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.55" marker-end="url(#darr)"/>
+
+      <rect x="640" y="206" width="504" height="54" rx="10" fill="url(#rightcard)" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="662" y="231" fill="#E2E8F0" font-size="14">只做血透，把合规口径做穿</text>
+      <text x="662" y="250" fill="#7F93A8" font-size="12.5">等级评审与飞检的问法，直接长成系统的字段</text>
+    </g>
+
+    <!-- 行 3 -->
+    <g>
+      <rect x="56" y="270" width="440" height="54" rx="10" fill="url(#leftcard)" stroke="#2A3547"/>
+      <text x="76" y="295" fill="#8A97A8" font-size="14">AI 判完直接出分</text>
+      <text x="76" y="314" fill="#5B6B80" font-size="12.5">最快，但没人对结果负责</text>
+
+      <line x1="510" y1="297" x2="622" y2="297" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.55" marker-end="url(#darr)"/>
+
+      <rect x="640" y="270" width="504" height="54" rx="10" fill="url(#rightcard)" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="662" y="295" fill="#E2E8F0" font-size="14">AI 给建议，人定稿，双分并存</text>
+      <text x="662" y="314" fill="#7F93A8" font-size="12.5">建议分与复核分分列存储，谁覆盖了谁一览无余</text>
+    </g>
+
+    <!-- 行 4 -->
+    <g>
+      <rect x="56" y="334" width="440" height="54" rx="10" fill="url(#leftcard)" stroke="#2A3547"/>
+      <text x="76" y="359" fill="#8A97A8" font-size="14">不合格就整套重考</text>
+      <text x="76" y="378" fill="#5B6B80" font-size="12.5">省事，但名单和规则要再造一遍</text>
+
+      <line x1="510" y1="361" x2="622" y2="361" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.55" marker-end="url(#darr)"/>
+
+      <rect x="640" y="334" width="504" height="54" rx="10" fill="url(#rightcard)" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="662" y="359" fill="#E2E8F0" font-size="14">轻量补考：名单与规则自动继承</text>
+      <text x="662" y="378" fill="#7F93A8" font-size="12.5">只补该补的人，规则一起复制，避免空考场</text>
+    </g>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/banner.svg" alt="血透中心医护培训平台" width="100%">
+  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/banner.svg" alt="血透中心医护培训平台" width="100%">
   <br><br>
-  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/badges.svg" alt="项目状态" width="100%">
+  <img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/badges.svg" alt="项目状态" width="100%">
 </div>
 
 <br>
@@ -28,7 +28,7 @@
 
 ## 01 · 问题：证据链断在最后一环
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/problem.svg" alt="证据链断裂示意" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/problem.svg" alt="证据链断裂示意" width="100%">
 
 血透是强合规场景。等级评审、医保飞检、院感检查反复问的是同一组问题：这次培训做了吗、谁参加了、学的什么版本的材料、考了多少分、谁判的、**这个分数后来被谁改过、依据是什么**。
 
@@ -40,7 +40,7 @@
 
 ## 02 · 产品决策：四次主动放弃
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/decisions.svg" alt="产品取舍对照" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/decisions.svg" alt="产品取舍对照" width="100%">
 
 产品能力不在功能列表里，在放弃清单里。下面四条是真正影响形态的决定，每条都写清了当时放弃什么、依据是什么。
 
@@ -80,7 +80,7 @@
 
 ## 03 · 四条设计原则
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/principles.svg" alt="四条设计原则" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/principles.svg" alt="四条设计原则" width="100%">
 
 这四条不写在文档里供人参观，而是固化成系统的硬约束：
 
@@ -93,7 +93,7 @@
 
 ## 04 · 一条不中断的闭环
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/loop.svg" alt="业务闭环与证据留痕" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/loop.svg" alt="业务闭环与证据留痕" width="100%">
 
 平台按四段组织，每段都有对应的证据留痕：
 
@@ -109,9 +109,36 @@
 
 ---
 
-## 05 · AI 的位置：给判断，但不担责任
+## 05 · 界面与角色路径
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/ai.svg" alt="AI 能力与人工确认纪律" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/ui.svg" alt="管理端界面结构示意" width="100%">
+
+管理端首页不是数据大屏，是一张"我该处理什么"的清单。三个区块分工明确：左边是我在哪个范围内、有哪些待办；中间是这个计划现在走到哪一步；右边是哪些东西卡在发布之前。
+
+几个刻意的界面选择：
+
+- **角色与数据范围常驻顶栏**——"中心级管理者 · 数据范围限本中心"。中心管理者不该靠猜来确认自己看到的是谁的数据；
+- **状态机画出来，当前节点高亮**——培训计划有五个状态，用户在哪个状态、下一步能做什么，一眼可见；
+- **每个数字都能下钻到人**——应参训 42、已完成 31，点进去是具体名单，不是一张只能看的报表；
+- **发布按钮前面有检查项**——全部交卷、主观题复核率 100%，两条都绿了才允许点发布；
+- **证据链状态常驻底部**——让操作者清楚：我这一下是被记录下来的。
+
+学员端是同一套信息的简化视图：待办 → 学习 → 考试（计时、防切屏）→ 查看已发布成绩 → 对存疑题目提交一次异议 → 接收学习建议。界面不同，证据链是同一个。
+
+平台不做"注册即用"，四类身份的能力边界由组织关系决定。
+
+- **系统管理员** — 初始化中心与科室、创建账号并分配角色、维护菜单与字典。权限变更需二次确认并留痕；角色权限矩阵不开放给界面随意修改，避免线上事故。
+- **总部培训管理者** — 制定年度计划 → 上传课件并做知识点结构化 → 组卷并走两级审核 → 发布计划并分配学员 → 审核成绩发布 → 查看督导报告与薄弱项看板。
+- **中心级管理者** — 接收本中心计划 → 排定场次与考勤 → 追踪本中心完成情况 → 处理本中心的忘记密码申请。跨中心数据在接口层即被拒绝，不依赖前端隐藏。
+- **学员** — 查看本人待办 → 学习课件 → 参加考试（计时、防切屏）→ 查看已发布成绩 → 对存疑题目提交一次异议（一题一申，一次终审）→ 接收学习建议与站内信。
+
+中心级不是缩小版管理员——她不能跨中心、不能改计划，但必须能管本中心的场次与考勤。
+
+---
+
+## 06 · AI 的位置：给判断，但不担责任
+
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/ai.svg" alt="AI 能力与人工确认纪律" width="100%">
 
 平台有九类 AI 能力，但它们共享同一条纪律：**AI 生成 → 结构化落库（标记来源）→ 人工确认/修改 → 留痕 → 才对外生效。**
 
@@ -124,9 +151,9 @@
 
 ---
 
-## 06 · 架构：前端隐藏只是体验，边界在接口与 SQL 层
+## 07 · 架构：前端隐藏只是体验，边界在接口与 SQL 层
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/architecture.svg" alt="系统架构与权限三道收敛" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/architecture.svg" alt="系统架构与权限三道收敛" width="100%">
 
 **权限三道收敛：** 路由可达性（菜单授权）→ 接口门禁（角色/权限断言）→ SQL 数据范围（查询层自动注入部门条件）。前端的隐藏只是体验，不是边界。中心级管理者的部门范围在"计划 / 场次 / 台账"三处口径一致。
 
@@ -142,9 +169,9 @@
 
 ---
 
-## 07 · 工程硬功夫
+## 08 · 工程硬功夫
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/deadlock.svg" alt="门禁死锁与规则纯函数化" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/deadlock.svg" alt="门禁死锁与规则纯函数化" width="100%">
 
 产品规则一旦写进代码，就会变成工程约束。这几处是设计时必须提前想清楚的。
 
@@ -158,9 +185,9 @@
 
 ---
 
-## 08 · 质量、验证与验收口径
+## 09 · 质量、验证与验收口径
 
-<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@eeaaf7639733504ca24fde96481c90c2a70cfea9/assets/metrics.svg" alt="工程与质量数据" width="100%">
+<img src="https://fastly.jsdelivr.net/gh/ch1209498273/keryo-training-showcase@e61752f5be972dab688403871a8ff60b83de4653/assets/metrics.svg" alt="工程与质量数据" width="100%">
 
 **工程侧：**
 
@@ -191,7 +218,7 @@
 
 ---
 
-## 09 · 当前形态与演进路径
+## 10 · 当前形态与演进路径
 
 当前是 **V1.0 完整可演示形态**——不是功能切片，四类角色的端到端主线在隔离环境里可以完整跑通。
 
@@ -214,21 +241,6 @@
 
 ---
 
-## 10 · 角色与使用路径
-
-平台不做"注册即用"，四类身份的能力边界由组织关系决定。
-
-- **系统管理员** — 初始化中心与科室、创建账号并分配角色、维护菜单与字典。权限变更需二次确认并留痕；角色权限矩阵不开放给界面随意修改，避免线上事故。
-- **总部培训管理者** — 制定年度计划 → 上传课件并做知识点结构化 → 组卷并走两级审核 → 发布计划并分配学员 → 审核成绩发布 → 查看督导报告与薄弱项看板。
-- **中心级管理者** — 接收本中心计划 → 排定场次与考勤 → 追踪本中心完成情况 → 处理本中心的忘记密码申请。跨中心数据在接口层即被拒绝，不依赖前端隐藏。
-- **学员** — 查看本人待办 → 学习课件 → 参加考试（计时、防切屏）→ 查看已发布成绩 → 对存疑题目提交一次异议（一题一申，一次终审）→ 接收学习建议与站内信。
-
-中心级不是缩小版管理员——她不能跨中心、不能改计划，但必须能管本中心的场次与考勤。
-
-如需了解实现细节或安排演示，可通过本仓库 Issues 联系。
-
----
-
 ## 11 · 公开边界
 
 本页只承载项目说明，用于展示问题定义、产品设计与验证结果：
@@ -240,6 +252,8 @@
 - 演示仅供功能体验，请勿输入真实患者或临床业务数据；
 - 第 8、9 节数据取自最近一轮内部回归，可能滞后于当前主干；
 - 本项目用于展示产品设计与工程实践，**不构成医疗合规认证或生产服务承诺**。
+
+如需了解实现细节或安排演示，可通过本仓库 Issues 联系。
 
 发现本仓库存在疑似凭据或身份信息泄露时，请通过 Issues 告知，我会立即核查并处理。
 
